@@ -1,0 +1,17 @@
+header {
+    width: 100vw;
+    height: 40vh;
+    background-image: url(./img/huda-beauty.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  .link {
+    color: #ad3b65;
+  }
+  
+  .link:hover {
+    color: #F8E8EE;
+  }
+  
