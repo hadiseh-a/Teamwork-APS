@@ -6,7 +6,7 @@
 header {
     width: 100vw;
     height: 40vh;
-    background-image: url(./img/ordinary-headerr.jpg);
+    background-image: url(./img/header-ordinary.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -23,7 +23,7 @@ header {
 }
   
 .link:hover {
-    color: #F8E8EE;
+    color: #aa5f74;
     cursor: pointer;
 }
   
