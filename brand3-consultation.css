@@ -1,3 +1,32 @@
 #items:hover{
     color: brown;
 }
+
+/* header styles */
+header {
+    width: 100vw;
+    height: 40vh;
+    background-image: url(./img/header-ordinary.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: 'Roboto' , sans-serif;
+}
+  
+.link {
+    color: rgb(220, 126, 148);
+    text-decoration: none;
+}
+  
+.last-link {
+  color: #aa5f74;
+}
+  
+.link:hover {
+    color: #aa5f74;
+    cursor: pointer;
+}
+  
+.h1-color {
+  color: #D14D72;
+}
