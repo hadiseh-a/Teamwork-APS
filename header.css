@@ -7,11 +7,16 @@ header {
     background-position: center;
   }
   
-  .link {
-    color: #ad3b65;
-  }
+.link {
+    color: #F9F5F6;
+}
   
-  .link:hover {
+.link:hover {
     color: #F8E8EE;
-  }
+    cursor: pointer;
+}
+
+.h1-color {
+  color: #D14D72;
+}
   
