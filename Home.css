@@ -238,3 +238,22 @@ img {
     height: 40px !important;
     background-color: rgb(242, 190, 209);
 }
+
+#best-brand{
+    transition: all .5s;
+}
+#best-brand::before{
+    content: ">";
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-right: .5rem;
+}
+#best-brand:hover{
+    transform: scale(1.1);
+    transform-origin: left;
+    color: black;
+    font-weight:bolder;
+}
+#icon-footer:hover{
+    color: brown !important;
+    border-color: black !important;
+}
