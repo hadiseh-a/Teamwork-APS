@@ -215,6 +215,9 @@ img {
     height: 100px;
 }
 
+.card-text {
+    color: rgb(242, 190, 209);
+}
 
 .owl-nav {
     margin-top: 50px;
