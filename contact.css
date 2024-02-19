@@ -49,3 +49,12 @@ header {
   color: brown !important;
   border-color: black !important;
 }
+.map-container {
+  width: 100%;
+  height: 300px;
+  margin-top: 20px;
+}
+.btn-primary{
+  background-color: #D14D72 !important;
+  border: none;
+}
