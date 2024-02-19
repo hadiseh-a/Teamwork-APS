@@ -49,3 +49,33 @@ header {
   color: brown !important;
   border-color: black !important;
 }
+.pic-c {
+  width: 100px;
+  height: 100px;
+}
+
+.owl-nav {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.owl-nav .owl-perv {
+  width: 40px;
+  height: 40px;
+  background-color:#fcc8d1 ;
+  border-radius: 10px;
+  color: white;
+}
+
+.button-color {
+  width: 40px !important;
+  height: 40px !important;
+  background-color: #fcc8d1;
+}
+.pic-card {
+  width: 100px;
+  height: 100px;
+  border: 1px dashed black;
+  border-radius: 20px;
+}
