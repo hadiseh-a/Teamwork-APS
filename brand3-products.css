@@ -1,3 +1,4 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
 #items:hover{
     color: brown;
 }
@@ -49,3 +50,32 @@ header {
   color: brown !important;
   border-color: black !important;
 }
+
+.second-card-body {
+    bottom: -50px !important;
+    opacity: 0 !important;
+    transition: .5s !important;
+}
+
+.card:hover .second-card-body {
+    bottom: 0 !important;
+    opacity: 1 !important;
+}
+
+.card:hover .card-img-top {
+    scale: 1.1;
+}
+
+.card-img-top {
+    transition: .5s !important;
+} 
+.btn-color {
+  color: #e598b4;
+  background-color: #F9F5F6;
+}
+
+.btn-color:hover {
+  color: #ffffff;
+  background-color: #d14d72;
+}
+
