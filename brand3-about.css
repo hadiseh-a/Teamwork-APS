@@ -49,3 +49,36 @@ header {
   color: brown !important;
   border-color: black !important;
 }
+
+/* main styles */
+
+.card {
+  margin-bottom: 20px;
+  border: 10px solid rgba(69, 69, 69, 0.2); /* Border with opacity */
+  display: flex;
+  justify-content: center; /* Center the content horizontally */
+  align-items: center; /* Center the content vertically */
+}
+body{
+  background-color: #f9f5f6;
+}
+.card-img {
+  width: 64px;
+  height: 64px;
+  margin-top: 0 auto;
+  
+  
+}
+.right-column-image {
+  width: 100%;
+  border-radius: 20px; /* Border radius */
+}
+
+@media (min-width: 768px) {
+  .flex-container {
+    display: flex;
+    justify-content: space-between; /* Create space between columns */
+  }
+}
+
+/* main styles */
