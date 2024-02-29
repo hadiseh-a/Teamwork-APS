@@ -49,3 +49,17 @@ header {
   color: brown !important;
   border-color: black !important;
 }
+
+/* main styles */
+body{
+  background-color: #f9f5f6;
+}
+.btn-primary {
+  background-color: #f3aec1;
+  border-color: #f26b92;
+  }
+  .btn-primary:hover {
+  background-color: #ff5286c2;
+  border-color: #ff5286f9;
+  }
+  /* main styles */
