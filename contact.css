@@ -1,0 +1,60 @@
+#items:hover{
+    color: brown;
+}
+
+/* header styles */
+header {
+    width: 100vw;
+    height: 42vh;
+    background-image: url(./img/header-picture.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: 'Roboto' , sans-serif;
+}
+  
+.link {
+    color: rgb(220, 126, 148);
+    text-decoration: none;
+}
+  
+.last-link {
+  color: #aa5f74;
+}
+  
+.link:hover {
+    color: #aa5f74;
+    cursor: pointer;
+}
+  
+.h1-color {
+  color: #D14D72;
+}
+
+#best-brand{
+  transition: all .5s;
+}
+#best-brand::before{
+  content: ">";
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  margin-right: .5rem;
+}
+#best-brand:hover{
+  transform: scale(1.1);
+  transform-origin: left;
+  color: black;
+  font-weight:bolder;
+}
+#icon-footer:hover{
+  color: brown !important;
+  border-color: black !important;
+}
+.map-container {
+  width: 100%;
+  height: 300px;
+  margin-top: 20px;
+}
+.btn-primary{
+  background-color: #D14D72 !important;
+  border: none;
+}

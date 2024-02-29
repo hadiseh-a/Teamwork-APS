@@ -1,0 +1,259 @@
+#items:hover{
+    color: brown;
+}
+
+/* * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+} */
+
+
+
+.bg-color1 {
+    color: #fdcedf;
+}
+
+.bg-color2 {
+    background-color: #fdcedf;
+    color: #f2bed1;
+}
+
+.bg-color {
+    color: violet;
+    background-color: violet;
+}
+.hover-color:hover {
+    background-color: #d14d72 ;
+}
+.btn-color{
+    background-color:rgb(229, 228, 228)!important;
+    color:#e598b4 !important;
+  }
+  .btn-color:hover{
+    background-color: #F2BED1 !important;
+    color:white !important;
+  }
+
+  .fw-700 {
+    font-weight: 700;
+  }
+/* start carousel section 1-1 */
+.carousel{
+position: relative;
+}
+
+.carousel-inner {
+    position: relative;
+    width: 100%;
+    overflow: hidden; 
+}
+
+.carousel-control-prev {
+    width: 15%;
+    height: inherit;
+}
+
+.carousel-control-next {
+    width: 15%;
+    height: inherit;
+}
+
+
+
+.carousel-caption  {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    text-align: start;
+    z-index: 1;
+   
+}
+
+
+img {
+    
+    vertical-align: middle;
+}
+
+:root {
+    --primary:var(#dfdfdf)
+}
+
+
+
+
+@media (max-width: 768px) {
+    #begin-carousel .carousel-item {
+        position: relative;
+        min-height: 450px;
+    }
+}
+
+@media screen and  (max-width: 768px)
+{
+
+#begin-carousel .carousel-item img   {
+
+    position: absolute;
+    width: 100% ;
+    height: 100% !important;
+    object-fit: cover;
+}
+}
+
+/* end caroussel section 1-1 */
+
+/* start section 1-2 */
+/* start discount items */
+.div-text {
+    max-width: 500px;
+}
+
+.service-itms {
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 0 45px rgba(0, 0, 0, 0.07);
+}
+
+.service-itms .service-icons {
+    width: 90px;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.service-itms a.btn {
+    color: var(--primary);
+}
+/* end discount items */
+/* end section 1-2 */
+
+/* start section 1-3 */
+/* form login/appointment */
+
+.appoint-form {
+    background: linear-gradient(
+        rgba(213, 100, 124, 0.9),
+        rgba(231, 161, 176, 0.9)), url(./images/COLLEET_WEB_-_Blog_post_cover_11.webp) center center no-repeat !important;
+        background-size: cover;
+}
+
+.textareaa {
+    height: 70px !important;
+} 
+
+
+
+@media screen and (min-width:992px) {
+    .col-lg-6 {
+        flex: 0 0 auto;
+        width: 50%;
+    }
+    
+}
+
+/* carousel and card styles */
+.second-card-body {
+    bottom: -50px !important;
+    opacity: 0 !important;
+    transition: .5s !important;
+}
+
+.card:hover .second-card-body {
+    bottom: 0 !important;
+    opacity: 1 !important;
+}
+
+.card:hover .card-img-top {
+    scale: 1.1;
+}
+
+.card-img-top {
+    transition: .5s !important;
+}
+
+.pic-card {
+    width: 100px;
+    height: 100px;
+    border: 1px dashed #F2BED1;
+    border-radius: 50% !important;
+}
+
+.btn-color {
+    color: #e598b4;
+    background-color: #F9F5F6;
+}
+
+.btn-color:hover {
+    color: #ffffff;
+    background-color: #F2bed1;
+}
+
+.h2-carousel {
+    color: rgb(209, 77, 114);
+}
+
+.container div h2 {
+    color: rgb(209, 77, 114);
+}
+
+.carousel-item h5 {
+    color: #F2BED1;
+}
+
+#time {
+    opacity: 50%;
+}
+
+.pic-c {
+    width: 100px;
+    height: 100px;
+}
+
+.card-text {
+    color: rgb(242, 190, 209);
+}
+
+.owl-nav {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.owl-nav .owl-perv {
+    width: 40px;
+    height: 40px;
+    background-color:#F2bed1 ;
+    border-radius: 10px;
+    color: white;
+}
+
+.button-color {
+    width: 40px !important;
+    height: 40px !important;
+    background-color: rgb(242, 190, 209);
+}
+
+#best-brand{
+    transition: all .5s;
+}
+#best-brand::before{
+    content: ">";
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-right: .5rem;
+}
+#best-brand:hover{
+    transform: scale(1.1);
+    transform-origin: left;
+    color: black;
+    font-weight:bolder;
+}
+#icon-footer:hover{
+    color: brown !important;
+    border-color: black !important;
+}

@@ -1,0 +1,171 @@
+#items:hover{
+    color: brown;
+}
+
+  /* header styles */
+  header {
+    width: 100vw;
+    height: 40vh;
+    background-image: url(./img/shegl-header.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: 'Roboto' , sans-serif;
+  }
+  
+  .link {
+    color: rgb(220, 126, 148);
+    text-decoration: none;
+  }
+  
+  .last-link {
+  color: #aa5f74;
+  }
+  
+  .link:hover {
+    color: #aa5f74;
+    cursor: pointer;
+  }
+  
+  .h1-color {
+  color: #D14D72;
+  }
+  
+#best-brand{
+  transition: all .5s;
+}
+#best-brand::before{
+  content: ">";
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  margin-right: .5rem;
+}
+#best-brand:hover{
+  transform: scale(1.1);
+  transform-origin: left;
+  color: black;
+  font-weight:bolder;
+}
+#icon-footer:hover{
+  color: brown !important;
+  border-color: black !important;
+}
+
+/* main */
+
+body {
+  background-color: #f9f5f6;
+}
+.card img {
+  width: 64px;
+  height: 64px;
+  object-fit: cover;
+  border: 10px solid #ff4378; /* Thick border with blue color */
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px; /* Optional: Add border radius for aesthetics */
+  margin-bottom: 10px;
+  margin-top: 30px;
+  opacity: 0.9; /* Optional: Add some space between image and content */
+}
+
+.btn-primary:hover {
+  background-color: #f52a75 !important; /* Change button background color on hover */
+}
+.btn-primary {
+  background-color: #f65b8a !important;
+  border: #fac2d7 !important;
+}
+
+.container-xxl py-5 {
+  background-color: #fef2f4;
+}
+
+.card {
+  position: relative;
+  overflow: hidden;
+  border-radius: 20px;
+}
+
+.img1 {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(images/item1.jpeg); /* Change the URL to your desired background image */
+  background-size: cover;
+  background-position: center;
+  opacity: 0.9; /* Adjust the opacity of the background image */
+  z-index: 0;
+}
+
+.img2 {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(images/lipstick2.jpeg); /* Change the URL to your desired background image */
+  background-size: cover;
+  background-position: center;
+  opacity: 0.9; /* Adjust the opacity of the background image */
+  z-index: 0;
+}
+.img3 {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(images/eyeliner.jpeg); /* Change the URL to your desired background image */
+  background-size: cover;
+  background-position: center;
+  opacity: 0.9; /* Adjust the opacity of the background image */
+  z-index: 0;
+}
+.img4 {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(images/mascara.jpeg); /* Change the URL to your desired background image */
+  background-size: cover;
+  background-position: center;
+  opacity: 0.9; /* Adjust the opacity of the background image */
+  z-index: 0;
+}
+.img5 {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(images/eyeshadow.jpeg); /* Change the URL to your desired background image */
+  background-size: cover;
+  background-position: center;
+  opacity: 0.9; /* Adjust the opacity of the background image */
+  z-index: 0;
+}
+.img6 {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(images/cheek.jpeg); /* Change the URL to your desired background image */
+  background-size: cover;
+  background-position: center;
+  opacity: 0.9; /* Adjust the opacity of the background image */
+  z-index: 0;
+}
+.card-body {
+  position: relative;
+  z-index: 1; /* Ensure content is above the background image */
+  color: #fff; /* Change text color to white for better visibility */
+}

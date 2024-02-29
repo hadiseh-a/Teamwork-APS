@@ -1,0 +1,81 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+#items:hover{
+    color: brown;
+}
+
+/* header styles */
+header {
+    width: 100vw;
+    height: 40vh;
+    background-image: url(./img/header-ordinary.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: 'Roboto' , sans-serif;
+}
+  
+.link {
+    color: rgb(220, 126, 148);
+    text-decoration: none;
+}
+  
+.last-link {
+  color: #aa5f74;
+}
+  
+.link:hover {
+    color: #aa5f74;
+    cursor: pointer;
+}
+  
+.h1-color {
+  color: #D14D72;
+}
+
+#best-brand{
+  transition: all .5s;
+}
+#best-brand::before{
+  content: ">";
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  margin-right: .5rem;
+}
+#best-brand:hover{
+  transform: scale(1.1);
+  transform-origin: left;
+  color: black;
+  font-weight:bolder;
+}
+#icon-footer:hover{
+  color: brown !important;
+  border-color: black !important;
+}
+
+.second-card-body {
+    bottom: -50px !important;
+    opacity: 0 !important;
+    transition: .5s !important;
+}
+
+.card:hover .second-card-body {
+    bottom: 0 !important;
+    opacity: 1 !important;
+}
+
+.card:hover .card-img-top {
+    scale: 1.1;
+}
+
+.card-img-top {
+    transition: .5s !important;
+} 
+.btn-color {
+  color: #e598b4;
+  background-color: #F9F5F6;
+}
+
+.btn-color:hover {
+  color: #ffffff;
+  background-color: #d14d72;
+}
+

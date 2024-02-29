@@ -1,0 +1,130 @@
+#items:hover{
+    color: brown;
+}
+body{
+    font-family: 'Roboto' , sans-serif;
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+  }
+  .min-h{
+    min-height:400px;
+  }
+  .fit-cover{
+    object-fit:cover;
+  }
+  .w-200px{
+    width:200px;
+  }
+  .h-200px{
+    height:200px;
+  }
+  .fw-900{
+    font-weight: 900 !important;
+  }
+  .fw-700{
+    font-weight: 700 !important;
+  }
+  .bg-color1{
+    background-color: #FDCEDF ;
+  }
+  .text-color2{
+    color: #F2BED1;
+  }
+  .bg-color3{
+    background-color: #F8E8EE;
+  }
+  @media only screen and (min-width:992px){
+    .facts{
+      max-width:100% !important;
+    }
+  }
+  .btn-color4{
+    background-color:  #F8E8EE !important;
+  }
+  .btn-color4:hover{
+    background-color: #F2BED1!important;
+  }
+  .btn-color4:active{
+    box-shadow:0 0 2px 2px gray !important;
+  }
+  .bg-colorgray{
+    background-color: rgb(193, 191, 191);
+  }
+  .mw-500{
+    max-width:500px;
+  }
+  .btn-color{
+    background-color:rgb(229, 228, 228)!important;
+    color:#e598b4 !important;
+  }
+  .btn-color:hover{
+    background-color: #F2BED1 !important;
+    color:white !important;
+  }
+  .b-space{
+    bottom:-50px !important;
+    opacity: 0 !important;
+    transition:0.5s !important;
+  }
+  .card:hover .second-card-body{
+    bottom:0 !important;
+    opacity:1 !important;
+  }
+  .me-3{
+    max-width: 64px !important;
+  }
+  .link-color{
+    color:pink;
+  }
+  .card:hover .card-img-top{
+    transform: scale(1.2) !important;
+  }
+
+  /* header styles */
+header {
+  width: 100vw;
+  height: 40vh;
+  background-image: url(./img/huda-beauty.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  font-family: 'Roboto' , sans-serif;
+}
+
+.link {
+  color: #F9F5F6;
+  text-decoration: none;
+}
+
+.last-link {
+color: #d0889d;
+}
+
+.link:hover {
+  color: #F8E8EE;
+  cursor: pointer;
+}
+
+.h1-color {
+color: #D14D72;
+}
+
+#best-brand{
+  transition: all .5s;
+}
+#best-brand::before{
+  content: ">";
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  margin-right: .5rem;
+}
+#best-brand:hover{
+  transform: scale(1.1);
+  transform-origin: left;
+  color: black;
+  font-weight:bolder;
+}
+#icon-footer:hover{
+  color: brown !important;
+  border-color: black !important;
+}

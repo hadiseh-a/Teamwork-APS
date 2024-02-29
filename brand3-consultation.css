@@ -1,0 +1,65 @@
+#items:hover{
+    color: brown;
+}
+
+/* header styles */
+header {
+    width: 100vw;
+    height: 40vh;
+    background-image: url(./img/header-ordinary.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: 'Roboto' , sans-serif;
+}
+  
+.link {
+    color: rgb(220, 126, 148);
+    text-decoration: none;
+}
+  
+.last-link {
+  color: #aa5f74;
+}
+  
+.link:hover {
+    color: #aa5f74;
+    cursor: pointer;
+}
+  
+.h1-color {
+  color: #D14D72;
+}
+
+#best-brand{
+  transition: all .5s;
+}
+#best-brand::before{
+  content: ">";
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  margin-right: .5rem;
+}
+#best-brand:hover{
+  transform: scale(1.1);
+  transform-origin: left;
+  color: black;
+  font-weight:bolder;
+}
+#icon-footer:hover{
+  color: brown !important;
+  border-color: black !important;
+}
+
+/* main styles */
+body{
+  background-color: #f9f5f6;
+}
+.btn-primary {
+  background-color: #f3aec1;
+  border-color: #f26b92;
+  }
+  .btn-primary:hover {
+  background-color: #ff5286c2;
+  border-color: #ff5286f9;
+  }
+  /* main styles */
